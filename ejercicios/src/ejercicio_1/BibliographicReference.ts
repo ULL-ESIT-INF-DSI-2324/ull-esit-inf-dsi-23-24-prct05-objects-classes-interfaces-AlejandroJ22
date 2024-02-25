@@ -2,6 +2,7 @@ import { BibliographicReferenceInterface } from "./BibliographicReferenceInterfa
 
 /**
  * Función para verificar si una fecha tiene el formato correcto (YYYY-MM-DD).
+ * Valida también cuando solo se indica el año.
  * @param date La fecha a verificar en formato de cadena de texto.
  */
 export function checkDate(date: string): boolean {

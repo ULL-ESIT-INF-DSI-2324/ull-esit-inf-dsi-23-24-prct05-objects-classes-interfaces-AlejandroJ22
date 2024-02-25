@@ -1,5 +1,15 @@
 {
     "entryPoints": [
+        "./src/ejercicio_1/AcademicWorks.ts",
+        "./src/ejercicio_1/BibliographicReference.ts",
+        "./src/ejercicio_1/BibliographicReferenceInterfaces.ts",
+        "./src/ejercicio_1/BibliographicReferenceManager.ts",
+        "./src/ejercicio_1/Book.ts",
+        "./src/ejercicio_1/example.ts",
+        "./src/ejercicio_1/MagazineArticle.ts",
+        "./src/ejercicio_1/Patent.ts",
+        "./src/ejercicio_1/TechnicalReport.ts",
+        "./src/ejercicio_1/TechnicalRule.ts",
         "./src/ejercicio_1_pe.ts"
     ],
     "out": "./docs"
