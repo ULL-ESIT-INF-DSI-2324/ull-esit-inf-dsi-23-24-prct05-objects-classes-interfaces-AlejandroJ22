@@ -4,19 +4,19 @@ import { getAllergens } from "../src/ejercicio_1_pe";
 
 describe("getAllergens", () => {
     it("should return the list of actions for a given number", () => {
-      expect(getAllergens(1)).to.be.equal([
+      expect(getAllergens(1)).to.deep.equal([
         "Huevo",
       ]);
-      expect(getAllergens(3)).to.be.equal([
+      expect(getAllergens(3)).to.deep.equal([
         "Huevo",
         "Cacahuete"
       ]);
-      expect(getAllergens(144)).to.be.equal([
+      expect(getAllergens(144)).to.deep.equal([
         "Tomate",
         "Gato",
       ]);
       expect(getAllergens(256)).to.be.undefined;
-      expect(getAllergens(257)).to.be.equal(["Huevo"]);
+      expect(getAllergens(257)).to.deep.equal(["Huevo"]);
     });
   
     it("should return undefined for negative numbers", () => {
