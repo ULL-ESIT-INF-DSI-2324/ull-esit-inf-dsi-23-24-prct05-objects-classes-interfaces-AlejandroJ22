@@ -30,7 +30,16 @@ export class Book extends BibliographicReference implements Bookinterface {
     public edition?: string,
     url?: string
   ) {
-    super(title, authors, keywords, summary, publishedDate, pageCount, editorial, url);
+    super(
+      title,
+      authors,
+      keywords,
+      summary,
+      publishedDate,
+      pageCount,
+      editorial,
+      url
+    );
   }
 
   /**

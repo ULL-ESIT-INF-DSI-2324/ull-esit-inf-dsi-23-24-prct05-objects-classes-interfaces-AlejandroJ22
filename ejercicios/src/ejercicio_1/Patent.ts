@@ -30,7 +30,16 @@ export class Patent extends BibliographicReference implements PatentInterface {
     public country: string,
     url?: string
   ) {
-    super(title, authors, keywords, summary, publishedDate, pageCount, editorial, url);
+    super(
+      title,
+      authors,
+      keywords,
+      summary,
+      publishedDate,
+      pageCount,
+      editorial,
+      url
+    );
   }
 
   /**

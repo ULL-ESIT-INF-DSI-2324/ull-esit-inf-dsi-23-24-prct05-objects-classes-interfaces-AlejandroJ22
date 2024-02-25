@@ -197,7 +197,14 @@ manager.addReference(
     5,
     "Springer, Cham",
     "Lecture Notes in Computer Science",
-    ["Günter Rudolph", "Anna V. Kononova", "Hernán Aguirre", "Pascal Kerschke", "Gabriela Ochoa", "Tea Tušar"],
+    [
+      "Günter Rudolph",
+      "Anna V. Kononova",
+      "Hernán Aguirre",
+      "Pascal Kerschke",
+      "Gabriela Ochoa",
+      "Tea Tušar",
+    ],
     "vol 13398",
     "https://doi.org/10.1007/978-3-031-14714-2_16"
   )
@@ -224,7 +231,7 @@ manager.addReference(
       "TypeScript with ASP.NET",
       "TypeScript with DOM",
       "TypeScript with Node and Express",
-      "TypeScript with React"
+      "TypeScript with React",
     ],
     `Learn the essentials and more of TypeScript, a popular superset of the JavaScript 
     language that adds support for static typing. TypeScript combines the typing features 
@@ -248,13 +255,18 @@ manager.addReference(
     "2",
     "https://doi.org/10.1007/978-1-4842-7011-0"
   )
-)
+);
 
 manager.addReference(
   new AcademicWorks(
     "Resolución del Multi Depot Cumulative Capacitated Vehicle Routing Problem mediante computación evolutiva.",
     ["Navarro Rodríguez, Cristo Daniel"],
-    ["Optimization Problem", "Vehicle Routing Problem", "Evolutionary Computation", "Software Development"],
+    [
+      "Optimization Problem",
+      "Vehicle Routing Problem",
+      "Evolutionary Computation",
+      "Software Development",
+    ],
     `The Multi Depot cumulative Capacitated Vehicle routing Problem is an optimization
     problem for vehicle routes which was recently formulated. Its objective is to minimize the
     arrival time of a fleet of vehicles to a group of clients, taking into account the capacity of
@@ -276,13 +288,18 @@ manager.addReference(
     "Spain",
     "http://riull.ull.es/xmlui/handle/915/25441"
   )
-)
+);
 
 manager.addReference(
   new AcademicWorks(
     "Resolución del Multi Depot Cumulative Capacitated Vehicle Routing Problem mediante computación evolutiva.",
     ["Navarro Rodríguez, Cristo Daniel"],
-    ["Optimization Problem", "Vehicle Routing Problem", "Evolutionary Computation", "Software Development"],
+    [
+      "Optimization Problem",
+      "Vehicle Routing Problem",
+      "Evolutionary Computation",
+      "Software Development",
+    ],
     `The Multi Depot cumulative Capacitated Vehicle routing Problem is an optimization
     problem for vehicle routes which was recently formulated. Its objective is to minimize the
     arrival time of a fleet of vehicles to a group of clients, taking into account the capacity of
@@ -304,13 +321,18 @@ manager.addReference(
     "Spain",
     "http://riull.ull.es/xmlui/handle/915/25441"
   )
-)
+);
 
 manager.addReference(
   new AcademicWorks(
     "On the automatic planning of healthy and balanced menus",
     ["Marrero Díaz, Alejandro"],
-    ["menu planning", "computer science", "evolutionary computing", "multiobjective optimisation"],
+    [
+      "menu planning",
+      "computer science",
+      "evolutionary computing",
+      "multiobjective optimisation",
+    ],
     `With the raise of diseases related with unhealthy lifestyles such as heartattacks, overweight, diabetes, 
     etc., encouraging healthy and balanced patterns in the population is one of the most important action 
     points for governments around the world. Furthermore, it is actually even a more critical situation when 
@@ -334,7 +356,7 @@ manager.addReference(
     "Spain",
     "http://riull.ull.es/xmlui/handle/915/14783"
   )
-)
+);
 
 // Mostrar todas las referencias
 console.log("Todas las referencias:");

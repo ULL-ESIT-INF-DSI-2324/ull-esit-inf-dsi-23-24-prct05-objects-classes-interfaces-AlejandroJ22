@@ -6,12 +6,7 @@ import { BibliographicReferenceInterface } from "./BibliographicReferenceInterfa
  */
 export function checkDate(date: string): boolean {
   if (!/^\d{4}(-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01]))?$/.test(date)) {
-    console.error(
-      "La Fecha: ",
-      date,
-      "es no válida o es inadecuada, use por favor el formato YYYY-MM-DD."
-    );
-    process.exit(1); // Termina el programa con un código de error.
+    return false;
   }
   return true;
 }
@@ -43,7 +38,15 @@ export abstract class BibliographicReference
     public editorial: string,
     public url?: string
   ) {
-    checkDate(publishedDate); // Verificar el formato de la fecha al instanciar la referencia.
+    // Verificar el formato de la fecha al instanciar la referencia.
+    if (!checkDate(publishedDate)) {
+      console.error(
+        "La Fecha: ",
+        publishedDate,
+        "es no válida o es inadecuada, use por favor el formato YYYY-MM-DD."
+      );
+      process.exit(1); // Termina el programa con un código de error.
+    }
   }
 
   /**

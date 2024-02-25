@@ -18,7 +18,15 @@ export class BibliographicReferenceManager {
 
   /** Método para mostrar todas las referencias bibliográficas en forma de tabla. */
   displayReferences() {
-    console.table(this.references, ['title', 'authors', 'keywords', 'publishedDate', 'pageCount', 'editorial', 'url']);
+    console.table(this.references, [
+      "title",
+      "authors",
+      "keywords",
+      "publishedDate",
+      "pageCount",
+      "editorial",
+      "url",
+    ]);
   }
 
   /**
@@ -51,7 +59,15 @@ export class BibliographicReferenceManager {
         }
       }
     });
-    console.table(results,  ['title', 'authors', 'keywords', 'publishedDate', 'pageCount', 'editorial', 'url']);
+    console.table(results, [
+      "title",
+      "authors",
+      "keywords",
+      "publishedDate",
+      "pageCount",
+      "editorial",
+      "url",
+    ]);
   }
 
   /** Método para imprimir todas las referencias bibliográficas en formato IEEE. */

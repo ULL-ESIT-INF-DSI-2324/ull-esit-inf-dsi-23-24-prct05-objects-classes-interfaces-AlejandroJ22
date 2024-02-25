@@ -35,9 +35,18 @@ export class TechnicalReport
     public country: string,
     public reportType: string,
     public reportNumber: number,
-    url?: string
+    url?: string,
   ) {
-    super(title, authors, keywords, summary, publishedDate, pageCount, editorial, url);
+    super(
+      title,
+      authors,
+      keywords,
+      summary,
+      publishedDate,
+      pageCount,
+      editorial,
+      url,
+    );
   }
 
   /**
